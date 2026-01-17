@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahi Tesisat | Profesyonel Tesisat Hizmetleri</title>
+    <meta name="description" content="Ahi Tesisat - Sıhhi tesisat, petek temizleme, kombi bakım ve tüm tesisat hizmetleri. 7/24 hizmetinizdeyiz.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Language Toggle -->
+    <div class="lang-toggle">
+        <button class="lang-btn active" data-lang="tr" onclick="setLanguage('tr')">TR</button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn" data-lang="en" onclick="setLanguage('en')">EN</button>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg-pattern"></div>
+        <div class="hero-content">
+            <div class="logo-container">
+                <div class="logo">
+                    <svg viewBox="0 0 100 120" class="logo-svg">
+                        <!-- Water drop shape -->
+                        <path d="M50 5 C50 5 15 50 15 75 C15 95 30 110 50 110 C70 110 85 95 85 75 C85 50 50 5 50 5Z" fill="#0077B6" stroke="#005F8A" stroke-width="2"/>
+                        <!-- House inside -->
+                        <path d="M50 35 L30 55 L30 80 L70 80 L70 55 Z" fill="white" stroke="#005F8A" stroke-width="1.5"/>
+                        <!-- Wrench -->
+                        <path d="M42 50 L42 75 M58 50 L58 75" stroke="#0077B6" stroke-width="4" stroke-linecap="round"/>
+                        <circle cx="42" cy="48" r="5" fill="#0077B6"/>
+                        <circle cx="58" cy="48" r="5" fill="#0077B6"/>
+                    </svg>
+                </div>
+                <div class="brand">
+                    <h1 class="brand-name">AHİ<span>TESİSAT</span></h1>
+                </div>
+            </div>
+            
+            <p class="tagline" data-tr="Profesyonel Tesisat Çözümleri" data-en="Professional Plumbing Solutions">Profesyonel Tesisat Çözümleri</p>
+            
+            <a href="tel:+905418075592" class="phone-number">
+                <span class="phone-icon">📞</span>
+                0541 807 55 92
+            </a>
+            
+            <p class="availability" data-tr="7/24 Hizmetinizdeyiz" data-en="24/7 At Your Service">7/24 Hizmetinizdeyiz</p>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span data-tr="Hizmetlerimiz" data-en="Our Services">Hizmetlerimiz</span>
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title" data-tr="Hizmetlerimiz" data-en="Our Services">Hizmetlerimiz</h2>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=400&h=250&fit=crop" alt="Pipe repair" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h3 data-tr="Sıhhi Tesisat Sızıntı Tamiri" data-en="Sanitary Plumbing Leak Repair">Sıhhi Tesisat Sızıntı Tamiri</h3>
+                        <p data-tr="Su kaçaklarını hızlı ve kalıcı olarak onarıyoruz." data-en="We repair water leaks quickly and permanently.">Su kaçaklarını hızlı ve kalıcı olarak onarıyoruz.</p>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=400&h=250&fit=crop" alt="Radiator" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h3 data-tr="Petek Temizleme" data-en="Radiator Cleaning">Petek Temizleme</h3>
+                        <p data-tr="Peteklerinizi temizleyerek ısınma verimliliğinizi artırıyoruz." data-en="We clean your radiators to increase heating efficiency.">Peteklerinizi temizleyerek ısınma verimliliğinizi artırıyoruz.</p>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=250&fit=crop" alt="Boiler" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h3 data-tr="Kombi Bakım ve Montaj" data-en="Boiler Maintenance & Installation">Kombi Bakım ve Montaj</h3>
+                        <p data-tr="Kombi bakımı, onarımı ve yeni kombi montajı yapıyoruz." data-en="We provide boiler maintenance, repair and new installations.">Kombi bakımı, onarımı ve yeni kombi montajı yapıyoruz.</p>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?w=400&h=250&fit=crop" alt="Shower" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h3 data-tr="Duş Montajı" data-en="Shower Installation">Duş Montajı</h3>
+                        <p data-tr="Duş kabini ve sistemlerinin profesyonel montajı." data-en="Professional installation of shower cabins and systems.">Duş kabini ve sistemlerinin profesyonel montajı.</p>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=400&h=250&fit=crop" alt="Faucet" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h3 data-tr="Musluk Tamir ve Değişimi" data-en="Faucet Repair & Replacement">Musluk Tamir ve Değişimi</h3>
+                        <p data-tr="Her türlü musluk tamiri ve değişimi yapılır." data-en="All types of faucet repairs and replacements.">Her türlü musluk tamiri ve değişimi yapılır.</p>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1585058178215-33108215e3c8?w=400&h=250&fit=crop" alt="Toilet" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h3 data-tr="Klozet Tamir ve Değişimi" data-en="Toilet Repair & Replacement">Klozet Tamir ve Değişimi</h3>
+                        <p data-tr="Klozet arızaları ve yeni klozet montajı." data-en="Toilet malfunctions and new toilet installation.">Klozet arızaları ve yeni klozet montajı.</p>
+                    </div>
+                </div>
+
+                <!-- Service 7 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&h=250&fit=crop" alt="Shower cabin" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h3 data-tr="Duşa Kabin Batarya Değişimi" data-en="Shower Cabin Faucet Replacement">Duşa Kabin Batarya Değişimi</h3>
+                        <p data-tr="Duş kabini bataryalarının değişimi ve tamiri." data-en="Replacement and repair of shower cabin faucets.">Duş kabini bataryalarının değişimi ve tamiri.</p>
+                    </div>
+                </div>
+
+                <!-- Service 8 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=400&h=250&fit=crop" alt="Gas pipes" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h3 data-tr="Gaz Flex Değişimi" data-en="Gas Flex Replacement">Gaz Flex Değişimi</h3>
+                        <p data-tr="Güvenli gaz flex hortumu değişimi." data-en="Safe gas flex hose replacement.">Güvenli gaz flex hortumu değişimi.</p>
+                    </div>
+                </div>
+
+                <!-- Service 9 -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1613214049841-028981a2eb71?w=400&h=250&fit=crop" alt="Cistern" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <h3 data-tr="Gömme Rezervuar Sifon ve Şamandıra Değişimi" data-en="Concealed Cistern Siphon & Float Replacement">Gömme Rezervuar Sifon ve Şamandıra Değişimi</h3>
+                        <p data-tr="Gömme rezervuar parçalarının tamiri ve değişimi." data-en="Repair and replacement of concealed cistern parts.">Gömme rezervuar parçalarının tamiri ve değişimi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <h2 class="section-title" data-tr="İşlerimizden Kareler" data-en="Our Work">İşlerimizden Kareler</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-item-large">
+                    <img src="https://images.unsplash.com/photo-1676210134188-4c05dd172f89?w=800&h=600&fit=crop" alt="Plumber at work" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span data-tr="Profesyonel Ekip" data-en="Professional Team">Profesyonel Ekip</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=400&h=300&fit=crop" alt="Plumbing tools" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span data-tr="Kaliteli Ekipman" data-en="Quality Equipment">Kaliteli Ekipman</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=400&h=300&fit=crop" alt="Pipe installation" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span data-tr="Boru Montajı" data-en="Pipe Installation">Boru Montajı</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1542013936693-884638332954?w=400&h=300&fit=crop" alt="Modern bathroom" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span data-tr="Modern Banyolar" data-en="Modern Bathrooms">Modern Banyolar</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=400&h=300&fit=crop" alt="Kitchen plumbing" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span data-tr="Mutfak Tesisatı" data-en="Kitchen Plumbing">Mutfak Tesisatı</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us">
+        <div class="container">
+            <h2 class="section-title light" data-tr="Neden Biz?" data-en="Why Choose Us?">Neden Biz?</h2>
+            
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">⚡</div>
+                    <h3 data-tr="Hızlı Servis" data-en="Fast Service">Hızlı Servis</h3>
+                    <p data-tr="Acil durumlarda hızlı müdahale" data-en="Quick response in emergencies">Acil durumlarda hızlı müdahale</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">💰</div>
+                    <h3 data-tr="Uygun Fiyat" data-en="Affordable Prices">Uygun Fiyat</h3>
+                    <p data-tr="Kaliteli hizmet, makul fiyat" data-en="Quality service, reasonable prices">Kaliteli hizmet, makul fiyat</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">✅</div>
+                    <h3 data-tr="Garantili İş" data-en="Guaranteed Work">Garantili İş</h3>
+                    <p data-tr="Tüm işlerimiz garantilidir" data-en="All our work is guaranteed">Tüm işlerimiz garantilidir</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🏆</div>
+                    <h3 data-tr="Deneyimli Ekip" data-en="Experienced Team">Deneyimli Ekip</h3>
+                    <p data-tr="Yılların tecrübesi ile hizmet" data-en="Service with years of experience">Yılların tecrübesi ile hizmet</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2 data-tr="Hemen Bize Ulaşın!" data-en="Contact Us Now!">Hemen Bize Ulaşın!</h2>
+            <p data-tr="Tesisat sorunlarınız için 7/24 yanınızdayız" data-en="We're here 24/7 for your plumbing problems">Tesisat sorunlarınız için 7/24 yanınızdayız</p>
+            
+            <div class="cta-buttons">
+                <a href="tel:+905418075592" class="btn btn-call">
+                    <span>📞</span>
+                    <span data-tr="Hemen Ara" data-en="Call Now">Hemen Ara</span>
+                </a>
+                <a href="https://wa.me/905418075592?text=Merhaba%2C%20tesisat%20hizmeti%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." class="btn btn-whatsapp" target="_blank">
+                    <span class="whatsapp-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                    </span>
+                    <span>WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>AHİ TESİSAT</h3>
+                    <p data-tr="Profesyonel Tesisat Hizmetleri" data-en="Professional Plumbing Services">Profesyonel Tesisat Hizmetleri</p>
+                </div>
+                <div class="footer-contact">
+                    <p><strong data-tr="Telefon:" data-en="Phone:">Telefon:</strong> 0541 807 55 92</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Ahi Tesisat. <span data-tr="Tüm hakları saklıdır." data-en="All rights reserved.">Tüm hakları saklıdır.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/905418075592?text=Merhaba%2C%20tesisat%20hizmeti%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+        <span class="whatsapp-tooltip" data-tr="WhatsApp ile yazın" data-en="Message on WhatsApp">WhatsApp ile yazın</span>
+    </a>
+
+    <script>
+        function setLanguage(lang) {
+            // Update active button
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.lang === lang);
+            });
+
+            // Update all text elements
+            document.querySelectorAll('[data-tr][data-en]').forEach(el => {
+                el.textContent = el.dataset[lang];
+            });
+
+            // Update HTML lang attribute
+            document.documentElement.lang = lang;
+
+            // Update page title
+            document.title = lang === 'tr' 
+                ? 'Ahi Tesisat | Profesyonel Tesisat Hizmetleri'
+                : 'Ahi Tesisat | Professional Plumbing Services';
+
+            // Store preference
+            localStorage.setItem('preferred-lang', lang);
+        }
+
+        // Load saved language preference
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedLang = localStorage.getItem('preferred-lang') || 'tr';
+            setLanguage(savedLang);
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
